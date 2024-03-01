@@ -21,7 +21,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: whitesmoke;
+}
+.logo {
+    scale: 1.2;
 }
 
 .blocos {
@@ -31,18 +33,21 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 50px;
-    position: relative;
 }
 .bloco1 {
+    padding-top: 4%;
     border-radius: 30px;
     text-align: center;
     width: 30%;
-    height:500px;
+    height:600px;
     background-color: rgba(217, 97, 97, 0.8);
+    transition: all 0.4s;
 }
+.bloco1:hover{scale: 1.06;}
+
 .bloco1 .imagem {
     position: relative;
-    left: 27%;
+    left:35%;
     align-items: center;
     background-image: url("/images/effects-icon.png");
     background-size: cover;
@@ -59,15 +64,19 @@ nav {
 }
 
 .bloco2 {
+    padding-top: 4%;
     border-radius: 30px;
     text-align: center;
     width: 30%;
-    height:500px;
+    height: 600px;
     background-color: rgba(171, 18, 18, 0.8);
+    transition: all 0.4s;
 }
+.bloco2:hover{scale: 1.06;}
+
 .bloco2 .imagem {
     position: relative;
-    left: 27%;
+    left: 35%;
     align-items: center;
     background-image: url("/images/instruments_icon.png");
     background-size: cover;
@@ -84,15 +93,19 @@ nav {
 }
 
 .bloco3 {
+    padding-top: 4%;
     border-radius: 30px;
     text-align: center;
     width: 30%;
-    height:500px;
+    height:600px;
     background-color: rgba(255, 66, 66, 0.8);
+    transition: all 0.4s;
 }
+.bloco3:hover{scale: 1.06;}
+
 .bloco3 .imagem {
     position: relative;
-    left: 27%;
+    left: 35%;
     align-items: center;
     background-image: url("/images/amps-and-cabinets-icon.png");
     background-size: cover;
