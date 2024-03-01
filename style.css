@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Big%20Shoulders%20Display:700|Black%20Han%20Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Kulim%20Park:400');
+
+body {
+    background-color: black;
+    background-image: url("/images/equip-check-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* font-family: 'Big Shoulders Display' <--fonte principal */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0A0905;
+    padding: 10px;
+}
+.navitems {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+.blocos {
+    position: absolute;
+    color: #F8F6F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+}
+.bloco1 {
+    border-radius: 30px;
+    text-align: center;
+    width: 30%;
+    height:500px;
+    background-color: rgba(217, 97, 97, 0.8);
+}
+.bloco1 .imagem {
+    position: relative;
+    left: 27%;
+    align-items: center;
+    background-image: url("/images/effects-icon.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FF4242;
+    border-radius: 30px;
+}
+.bloco1 p {
+    width: 50%;
+    padding-left: 25%;
+}
+
+.bloco2 {
+    border-radius: 30px;
+    text-align: center;
+    width: 30%;
+    height:500px;
+    background-color: rgba(171, 18, 18, 0.8);
+}
+.bloco2 .imagem {
+    position: relative;
+    left: 27%;
+    align-items: center;
+    background-image: url("/images/instruments_icon.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #D96161;
+    border-radius: 30px;
+}
+.bloco2 p {
+    width: 50%;
+    padding-left: 25%;
+}
+
+.bloco3 {
+    border-radius: 30px;
+    text-align: center;
+    width: 30%;
+    height:500px;
+    background-color: rgba(255, 66, 66, 0.8);
+}
+.bloco3 .imagem {
+    position: relative;
+    left: 27%;
+    align-items: center;
+    background-image: url("/images/amps-and-cabinets-icon.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #AB1212;
+    border-radius: 30px;
+}
+.bloco3 p {
+    width: 50%;
+    padding-left: 25%;
+}
+
+
+
+
+
+
+
+
+p {
+    font-family: 'Kulim Park';
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+  }
+  
+  html {font-size: 100%;} /* 16px */
+  
+  h1 {font-size: 4.210rem; /* 67.36px */}
+  
+  h2 {font-size: 3.158rem; /* 50.56px */}
+  
+  h3 {font-size: 2.369rem; /* 37.92px */}
+  
+  h4 {font-size: 1.777rem; /* 28.48px */}
+  
+  h5 {font-size: 1.333rem; /* 21.28px */}
+  
+  small {font-size: 0.750rem; /* 12px */}
