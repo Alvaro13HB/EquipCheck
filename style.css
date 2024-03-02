@@ -15,15 +15,11 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: #0A0905;
-    padding: 10px;
 }
 .navitems {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-.logo {
-    scale: 1.2;
 }
 
 .blocos {
@@ -32,14 +28,19 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    height: 100%;
+    width: 100%;
+
 }
 .bloco1 {
     padding-top: 4%;
     border-radius: 30px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 30%;
-    height:600px;
+    height:75%;
+    vertical-align: top;
     background-color: rgba(217, 97, 97, 0.8);
     transition: all 0.4s;
 }
@@ -47,12 +48,11 @@ nav {
 
 .bloco1 .imagem {
     position: relative;
-    left:35%;
-    align-items: center;
+    left: 25%;
     background-image: url("/images/effects-icon.png");
     background-size: cover;
-    width: 150px;
-    height: 150px;
+    width: 30%;
+    height: 28%;
     border-style: solid;
     border-width: 5px;
     border-color: #FF4242;
@@ -66,9 +66,11 @@ nav {
 .bloco2 {
     padding-top: 4%;
     border-radius: 30px;
+    align-items: center;
     text-align: center;
     width: 30%;
-    height: 600px;
+    height:75%;
+    vertical-align: top;
     background-color: rgba(171, 18, 18, 0.8);
     transition: all 0.4s;
 }
@@ -76,12 +78,11 @@ nav {
 
 .bloco2 .imagem {
     position: relative;
-    left: 35%;
-    align-items: center;
+    left: 25%;
     background-image: url("/images/instruments_icon.png");
     background-size: cover;
-    width: 150px;
-    height: 150px;
+    width: 30%;
+    height: 28%;
     border-style: solid;
     border-width: 5px;
     border-color: #D96161;
@@ -95,9 +96,11 @@ nav {
 .bloco3 {
     padding-top: 4%;
     border-radius: 30px;
+    align-items: center;
     text-align: center;
     width: 30%;
-    height:600px;
+    height:75%;
+    vertical-align: top;
     background-color: rgba(255, 66, 66, 0.8);
     transition: all 0.4s;
 }
@@ -105,12 +108,11 @@ nav {
 
 .bloco3 .imagem {
     position: relative;
-    left: 35%;
-    align-items: center;
+    left: 25%;
     background-image: url("/images/amps-and-cabinets-icon.png");
     background-size: cover;
-    width: 150px;
-    height: 150px;
+    width: 30%;
+    height: 28%;
     border-style: solid;
     border-width: 5px;
     border-color: #AB1212;
