@@ -1,46 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Big%20Shoulders%20Display:700|Black%20Han%20Sans:400');
 @import url('https://fonts.googleapis.com/css?family=Poppins:700|Kulim%20Park:400');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+:root{
+    --primary: #AB1212;
+    --secondary: #FF4242;
+    --terciary: #D96161;
+    --black: #0A0905;
+    --white: #F8F6F2;
+}
+
 body {
-    background-color: black;
-    background-image: url("/images/equip-check-background.png");
+    background-color: white;
+/*  background-image: url("/images/equip-check-background.png"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /* font-family: 'Big Shoulders Display' <--fonte principal */
 
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black);
+}
+
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #0A0905;
+    background-color: var(--black);
 }
 .navitems {
+    margin: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    transition: all 0.4s;
 }
+.navitems:hover {scale: 1.2;}
+
 
 .blocos {
     position: absolute;
-    color: #F8F6F2;
-    display: flex;
+    color: var(--white);
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-
+    border-radius: 30px;
 }
 .bloco1 {
-    padding-top: 4%;
+    margin: 2rem 2rem;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 30%;
-    height:75%;
-    vertical-align: top;
     background-color: rgba(217, 97, 97, 0.8);
     transition: all 0.4s;
 }
@@ -51,26 +71,22 @@ nav {
     left: 25%;
     background-image: url("/images/effects-icon.png");
     background-size: cover;
-    width: 30%;
-    height: 28%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FF4242;
-    border-radius: 30px;
+    outline-style: solid;
+    outline-width: 5%;
+    outline-color: var(--secondary);
+    border-radius: 10%;
 }
 .bloco1 p {
-    width: 50%;
+    min-width: 50%;
     padding-left: 25%;
 }
 
 .bloco2 {
-    padding-top: 4%;
+    margin: 2rem 2rem;
     border-radius: 30px;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    width: 30%;
-    height:75%;
-    vertical-align: top;
     background-color: rgba(171, 18, 18, 0.8);
     transition: all 0.4s;
 }
@@ -85,7 +101,7 @@ nav {
     height: 28%;
     border-style: solid;
     border-width: 5px;
-    border-color: #D96161;
+    border-color: var(--terciary);
     border-radius: 30px;
 }
 .bloco2 p {
@@ -94,13 +110,11 @@ nav {
 }
 
 .bloco3 {
-    padding-top: 4%;
+    margin: 2rem 2rem;
     border-radius: 30px;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    width: 30%;
-    height:75%;
-    vertical-align: top;
     background-color: rgba(255, 66, 66, 0.8);
     transition: all 0.4s;
 }
@@ -115,7 +129,7 @@ nav {
     height: 28%;
     border-style: solid;
     border-width: 5px;
-    border-color: #AB1212;
+    border-color: var(--primary);
     border-radius: 30px;
 }
 .bloco3 p {
