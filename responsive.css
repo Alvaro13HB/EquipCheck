@@ -1,0 +1,21 @@
+@media(max-width: 800px){
+    .blocos {
+        display: flex;
+        flex-direction: column;    
+    }
+    .bloco1 {
+        width: 100%;
+    }
+    .bloco2 {
+        width: 100%;
+    }
+    .bloco3 {
+        width: 100%;
+    }
+
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
