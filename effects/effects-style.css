@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Big%20Shoulders%20Display:700|Black%20Han%20Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Kulim%20Park:400');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+:root{
+    --primary: #AB1212;
+    --secondary: #FF4242;
+    --terciary: #D96161;
+    --black: #0A0905;
+    --white: #f8f6f2;
+}
+
+body {
+    background-image: url("/images/equip-check-background.png");
+    background-size: contain;
+}
+
+/* font-family: 'Big Shoulders Display' <--fonte principal */
+
+header {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--black);
+}
+.logo {
+    cursor: pointer;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--black);
+}
+.navitems {
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.navitems:hover {scale: 1.2;}
+
+
+.blocos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.esquerdo{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: start;
+    margin: 2rem 0rem 2rem 2rem;
+}
+
+.filtros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: start;
+    background-color: rgba(217, 97, 97, 0.8);
+    border-radius: 15px;
+    height: 100%;
+    min-width: 15rem;
+}
+
+.principal{
+    color: var(--white);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    align-content: start;
+    background-color: rgba(217, 97, 97, 0.8);
+    margin: 2rem 2rem 2rem 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-height: max-content;
+}
+
+.searchbar{
+    grid-column: 1 / span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: #0A0905;
+}
+
+.bar input{
+    background: transparent;
+    flex: 2;
+    border: 0;
+    outline: none;
+    padding: 1rem;
+    color: var(--white);
+    font-size: 1rem;
+    font-family: 'Kulim Park';
+}
+
+::placeholder{
+    color: rgba(248, 246, 242, 0.5);
+    text-decoration: underline;
+    font-family: 'Kulim Park';
+}
+
+.bar button{
+    background-color: transparent;
+    border: 0;
+    height: 2rem;
+    width: 2rem;
+    height: 100%;
+    cursor: pointer;
+}
+.bar button img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.principal aside{
+    align-items: center;
+    align-content: start;
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: var(--black);
+    text-decoration: none;
+}
+
+.principal a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.principal figure img{
+    max-width: 100%;
+}
+
+
+
+p {
+    font-family: 'Kulim Park';
+    font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+  }
+  
+  html {font-size: 100%;} /* 16px */
+  
+  h1 {font-size: 4.210rem; /* 67.36px */}
+  
+  h2 {font-size: 3.158rem; /* 50.56px */}
+  
+  h3 {font-size: 3rem; /* 37.92px */}
+  
+  h4 {font-size: 1.777rem; /* 28.48px */}
+  
+  h5 {font-size: 1.5rem; /* 21.28px */}
+  
+  small {font-size: 0.750rem; /* 12px */}

@@ -67,10 +67,7 @@ nav {
     justify-content: start;
     text-align: center;
     background-color: rgba(217, 97, 97, 0.8);
-    cursor: pointer;
-    transition: all 0.4s;
 }
-.bloco1:hover{scale: 1.06;}
 
 .bloco1 img {
     align-self: center;
@@ -85,6 +82,12 @@ nav {
     margin: 1.5rem 5rem;
     align-self: center;
 }
+.bloco1 a{
+    transition: all 0.4s;
+    text-decoration: none;
+    color: var(--white);
+}
+.bloco1 a:hover{scale: 1.1;}
 
 .bloco2 {
     display: flex;
@@ -95,10 +98,7 @@ nav {
     justify-content: start;
     text-align: center;
     background-color: rgba(171, 18, 18, 0.8);
-    cursor: pointer;
-    transition: all 0.4s;
 }
-.bloco2:hover{scale: 1.06;}
 
 .bloco2 img {
     align-self: center;
@@ -113,6 +113,12 @@ nav {
     margin: 1.5rem 5rem;
     align-self: center;
 }
+.bloco2 a{
+    transition: all 0.4s;
+    text-decoration: none;
+    color: var(--white);
+}
+.bloco2 a:hover{scale: 1.1;}
 
 
 .bloco3 {
@@ -124,10 +130,7 @@ nav {
     justify-content: start;
     text-align: center;
     background-color: rgba(255, 66, 66, 0.8);
-    cursor: pointer;
-    transition: all 0.4s;
 }
-.bloco3:hover{scale: 1.06;}
 
 .bloco3 img {
     align-self: center;
@@ -142,7 +145,12 @@ nav {
     margin: 1.5rem 5rem;
     align-self: center;
 }
-
+.bloco3 a{
+    transition: all 0.4s;
+    text-decoration: none;
+    color: var(--white);
+}
+.bloco3 a:hover{scale: 1.1;}
 
 
 
