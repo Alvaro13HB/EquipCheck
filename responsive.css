@@ -12,8 +12,6 @@
     .bloco3 {
         width: 100%;
     }
-
-
     header {
         display: flex;
         flex-direction: row-reverse;
